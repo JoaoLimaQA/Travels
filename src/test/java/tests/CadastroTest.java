@@ -11,7 +11,7 @@ import utils.Relatorio.ReportFail;
 import static io.qameta.allure.SeverityLevel.CRITICAL;
 
 @ExtendWith(ReportFail.class)
-public class CadastroPage extends Setup {
+public class CadastroTest extends Setup {
 
     @Test
     @Severity(CRITICAL)

@@ -59,13 +59,13 @@ abstract public class BasePage {
     }
 
 
-    public static String userAleatorio(String parametro) {
+    public static String userAleatorio(String parametro,String parametro2) {
         Random rand = new Random();
 
         int numeroAleatorio1 = rand.nextInt(100); // Gera um número aleatório entre 0 e 99
         int numeroAleatorio2 = rand.nextInt(100); // Gera outro número aleatório entre 0 e 99
 
-        String resultado = parametro + numeroAleatorio1 + numeroAleatorio2;
+        String resultado = parametro + numeroAleatorio1 + numeroAleatorio2 + parametro2;
         return resultado;
     }
 }
